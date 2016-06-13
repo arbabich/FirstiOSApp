@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43AC70E91D0E4C37004DD5FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC70E81D0E4C37004DD5FB /* AppDelegate.swift */; };
+		43AC70EB1D0E4C37004DD5FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC70EA1D0E4C37004DD5FB /* ViewController.swift */; };
+		43AC70EE1D0E4C37004DD5FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AC70EC1D0E4C37004DD5FB /* Main.storyboard */; };
+		43AC70F11D0E4C37004DD5FB /* RevengeList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 43AC70EF1D0E4C37004DD5FB /* RevengeList.xcdatamodeld */; };
+		43AC70F31D0E4C37004DD5FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43AC70F21D0E4C37004DD5FB /* Assets.xcassets */; };
+		43AC70F61D0E4C37004DD5FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43AC70F41D0E4C37004DD5FB /* LaunchScreen.storyboard */; };
+		43AC71011D0E4C37004DD5FB /* RevengeListTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC71001D0E4C37004DD5FB /* RevengeListTests.swift */; };
+		43AC710C1D0E4C37004DD5FB /* RevengeListUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43AC710B1D0E4C37004DD5FB /* RevengeListUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43AC70FD1D0E4C37004DD5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AC70DD1D0E4C37004DD5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AC70E41D0E4C37004DD5FB;
+			remoteInfo = RevengeList;
+		};
+		43AC71081D0E4C37004DD5FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43AC70DD1D0E4C37004DD5FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43AC70E41D0E4C37004DD5FB;
+			remoteInfo = RevengeList;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43AC70E51D0E4C37004DD5FB /* RevengeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RevengeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AC70E81D0E4C37004DD5FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43AC70EA1D0E4C37004DD5FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43AC70ED1D0E4C37004DD5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43AC70F01D0E4C37004DD5FB /* RevengeList.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = RevengeList.xcdatamodel; sourceTree = "<group>"; };
+		43AC70F21D0E4C37004DD5FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43AC70F51D0E4C37004DD5FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43AC70F71D0E4C37004DD5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AC70FC1D0E4C37004DD5FB /* RevengeListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevengeListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AC71001D0E4C37004DD5FB /* RevengeListTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevengeListTests.swift; sourceTree = "<group>"; };
+		43AC71021D0E4C37004DD5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43AC71071D0E4C37004DD5FB /* RevengeListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RevengeListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43AC710B1D0E4C37004DD5FB /* RevengeListUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RevengeListUITests.swift; sourceTree = "<group>"; };
+		43AC710D1D0E4C37004DD5FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43AC70E21D0E4C37004DD5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AC70F91D0E4C37004DD5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AC71041D0E4C37004DD5FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43AC70DC1D0E4C37004DD5FB = {
+			isa = PBXGroup;
+			children = (
+				43AC70E71D0E4C37004DD5FB /* RevengeList */,
+				43AC70FF1D0E4C37004DD5FB /* RevengeListTests */,
+				43AC710A1D0E4C37004DD5FB /* RevengeListUITests */,
+				43AC70E61D0E4C37004DD5FB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43AC70E61D0E4C37004DD5FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43AC70E51D0E4C37004DD5FB /* RevengeList.app */,
+				43AC70FC1D0E4C37004DD5FB /* RevengeListTests.xctest */,
+				43AC71071D0E4C37004DD5FB /* RevengeListUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43AC70E71D0E4C37004DD5FB /* RevengeList */ = {
+			isa = PBXGroup;
+			children = (
+				43AC70E81D0E4C37004DD5FB /* AppDelegate.swift */,
+				43AC70EA1D0E4C37004DD5FB /* ViewController.swift */,
+				43AC70EC1D0E4C37004DD5FB /* Main.storyboard */,
+				43AC70F21D0E4C37004DD5FB /* Assets.xcassets */,
+				43AC70F41D0E4C37004DD5FB /* LaunchScreen.storyboard */,
+				43AC70F71D0E4C37004DD5FB /* Info.plist */,
+				43AC70EF1D0E4C37004DD5FB /* RevengeList.xcdatamodeld */,
+			);
+			path = RevengeList;
+			sourceTree = "<group>";
+		};
+		43AC70FF1D0E4C37004DD5FB /* RevengeListTests */ = {
+			isa = PBXGroup;
+			children = (
+				43AC71001D0E4C37004DD5FB /* RevengeListTests.swift */,
+				43AC71021D0E4C37004DD5FB /* Info.plist */,
+			);
+			path = RevengeListTests;
+			sourceTree = "<group>";
+		};
+		43AC710A1D0E4C37004DD5FB /* RevengeListUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43AC710B1D0E4C37004DD5FB /* RevengeListUITests.swift */,
+				43AC710D1D0E4C37004DD5FB /* Info.plist */,
+			);
+			path = RevengeListUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43AC70E41D0E4C37004DD5FB /* RevengeList */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AC71101D0E4C37004DD5FB /* Build configuration list for PBXNativeTarget "RevengeList" */;
+			buildPhases = (
+				43AC70E11D0E4C37004DD5FB /* Sources */,
+				43AC70E21D0E4C37004DD5FB /* Frameworks */,
+				43AC70E31D0E4C37004DD5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RevengeList;
+			productName = RevengeList;
+			productReference = 43AC70E51D0E4C37004DD5FB /* RevengeList.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43AC70FB1D0E4C37004DD5FB /* RevengeListTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AC71131D0E4C37004DD5FB /* Build configuration list for PBXNativeTarget "RevengeListTests" */;
+			buildPhases = (
+				43AC70F81D0E4C37004DD5FB /* Sources */,
+				43AC70F91D0E4C37004DD5FB /* Frameworks */,
+				43AC70FA1D0E4C37004DD5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AC70FE1D0E4C37004DD5FB /* PBXTargetDependency */,
+			);
+			name = RevengeListTests;
+			productName = RevengeListTests;
+			productReference = 43AC70FC1D0E4C37004DD5FB /* RevengeListTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43AC71061D0E4C37004DD5FB /* RevengeListUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43AC71161D0E4C37004DD5FB /* Build configuration list for PBXNativeTarget "RevengeListUITests" */;
+			buildPhases = (
+				43AC71031D0E4C37004DD5FB /* Sources */,
+				43AC71041D0E4C37004DD5FB /* Frameworks */,
+				43AC71051D0E4C37004DD5FB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43AC71091D0E4C37004DD5FB /* PBXTargetDependency */,
+			);
+			name = RevengeListUITests;
+			productName = RevengeListUITests;
+			productReference = 43AC71071D0E4C37004DD5FB /* RevengeListUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43AC70DD1D0E4C37004DD5FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Anthony Babich";
+				TargetAttributes = {
+					43AC70E41D0E4C37004DD5FB = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					43AC70FB1D0E4C37004DD5FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43AC70E41D0E4C37004DD5FB;
+					};
+					43AC71061D0E4C37004DD5FB = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 43AC70E41D0E4C37004DD5FB;
+					};
+				};
+			};
+			buildConfigurationList = 43AC70E01D0E4C37004DD5FB /* Build configuration list for PBXProject "RevengeList" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43AC70DC1D0E4C37004DD5FB;
+			productRefGroup = 43AC70E61D0E4C37004DD5FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43AC70E41D0E4C37004DD5FB /* RevengeList */,
+				43AC70FB1D0E4C37004DD5FB /* RevengeListTests */,
+				43AC71061D0E4C37004DD5FB /* RevengeListUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43AC70E31D0E4C37004DD5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC70F61D0E4C37004DD5FB /* LaunchScreen.storyboard in Resources */,
+				43AC70F31D0E4C37004DD5FB /* Assets.xcassets in Resources */,
+				43AC70EE1D0E4C37004DD5FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AC70FA1D0E4C37004DD5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AC71051D0E4C37004DD5FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43AC70E11D0E4C37004DD5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC70EB1D0E4C37004DD5FB /* ViewController.swift in Sources */,
+				43AC70E91D0E4C37004DD5FB /* AppDelegate.swift in Sources */,
+				43AC70F11D0E4C37004DD5FB /* RevengeList.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AC70F81D0E4C37004DD5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC71011D0E4C37004DD5FB /* RevengeListTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43AC71031D0E4C37004DD5FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43AC710C1D0E4C37004DD5FB /* RevengeListUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43AC70FE1D0E4C37004DD5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AC70E41D0E4C37004DD5FB /* RevengeList */;
+			targetProxy = 43AC70FD1D0E4C37004DD5FB /* PBXContainerItemProxy */;
+		};
+		43AC71091D0E4C37004DD5FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43AC70E41D0E4C37004DD5FB /* RevengeList */;
+			targetProxy = 43AC71081D0E4C37004DD5FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43AC70EC1D0E4C37004DD5FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AC70ED1D0E4C37004DD5FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43AC70F41D0E4C37004DD5FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43AC70F51D0E4C37004DD5FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43AC710E1D0E4C37004DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43AC710F1D0E4C37004DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43AC71111D0E4C37004DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RevengeList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyBabich.RevengeList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43AC71121D0E4C37004DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = RevengeList/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyBabich.RevengeList;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43AC71141D0E4C37004DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RevengeListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyBabich.RevengeListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevengeList.app/RevengeList";
+			};
+			name = Debug;
+		};
+		43AC71151D0E4C37004DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = RevengeListTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyBabich.RevengeListTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RevengeList.app/RevengeList";
+			};
+			name = Release;
+		};
+		43AC71171D0E4C37004DD5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RevengeListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyBabich.RevengeListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RevengeList;
+			};
+			name = Debug;
+		};
+		43AC71181D0E4C37004DD5FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = RevengeListUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyBabich.RevengeListUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RevengeList;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43AC70E01D0E4C37004DD5FB /* Build configuration list for PBXProject "RevengeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AC710E1D0E4C37004DD5FB /* Debug */,
+				43AC710F1D0E4C37004DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43AC71101D0E4C37004DD5FB /* Build configuration list for PBXNativeTarget "RevengeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AC71111D0E4C37004DD5FB /* Debug */,
+				43AC71121D0E4C37004DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43AC71131D0E4C37004DD5FB /* Build configuration list for PBXNativeTarget "RevengeListTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AC71141D0E4C37004DD5FB /* Debug */,
+				43AC71151D0E4C37004DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43AC71161D0E4C37004DD5FB /* Build configuration list for PBXNativeTarget "RevengeListUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43AC71171D0E4C37004DD5FB /* Debug */,
+				43AC71181D0E4C37004DD5FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		43AC70EF1D0E4C37004DD5FB /* RevengeList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				43AC70F01D0E4C37004DD5FB /* RevengeList.xcdatamodel */,
+			);
+			currentVersion = 43AC70F01D0E4C37004DD5FB /* RevengeList.xcdatamodel */;
+			path = RevengeList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 43AC70DD1D0E4C37004DD5FB /* Project object */;
+}
